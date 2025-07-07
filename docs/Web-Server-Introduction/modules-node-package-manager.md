@@ -170,54 +170,13 @@ All npm packages that you install locally for your application will be installed
 
 While there are over 60 "npm" [commands available](https://docs.npmjs.com/cli/commands), the ones that we will most commonly use in this course are as follows:
 
-<table>
-
-<tbody>
-
-<tr>
-
-<td><strong><a href="https://docs.npmjs.com/cli/v8/commands/npm-install" target="_blank">npm install [Module Name]</a></strong>  
-</td>
-
-<td>install is used to install a package from the npm repository so that you can use it with your application. ie: let express = require(“express”);</td>
-
-</tr>
-
-<tr>
-
-<td width="200"><strong><a href="https://docs.npmjs.com/cli/v8/commands/npm-uninstall" target="_blank">npm uninstall [module name]</a></strong></td>
-
-<td>uninstall does exactly what you would think, it uninstalls a module from the node_modules folder and your application will no longer be able to require() it.</td>
-
-</tr>
-
-<tr>
-
-<td><strong><a href="https://docs.npmjs.com/cli/v8/commands/npm-init" target="_blank">npm init</a></strong></td>
-
-<td>create a new package.json file for a fresh application. More on this part later.</td>
-
-</tr>
-
-<tr>
-
-<td><strong><a href="https://docs.npmjs.com/cli/v8/commands/npm-prune" target="_blank">npm prune</a></strong></td>
-
-<td>The prune command will look through your package.json file and remove any npm modules that are installed that are not required for your project. More on this part later.</td>
-
-</tr>
-
-<tr>
-
-<td><strong><a href="https://docs.npmjs.com/cli/v8/commands/npm-ls" target="_blank">npm list</a></strong></td>
-
-<td>Show a list of all packages installed for use by this application.</td>
-
-</tr>
-
-</tbody>
-
-</table>
+| Command                                                                             | Description                                                                                                                                                               |
+| ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [npm install [Module Name]](https://docs.npmjs.com/cli/v8/commands/npm-install)     | install is used to install a package from the npm repository so that you can use it with your application. ie: `let express = require("express");`                        |
+| [npm uninstall [module name]](https://docs.npmjs.com/cli/v8/commands/npm-uninstall) | uninstall does exactly what you would think, it uninstalls a module from the node_modules folder and your application will no longer be able to require() it.             |
+| [npm init](https://docs.npmjs.com/cli/v8/commands/npm-init)                         | create a new package.json file for a fresh application. More on this part later.                                                                                          |
+| [npm prune](https://docs.npmjs.com/cli/v8/commands/npm-prune)                       | The prune command will look through your package.json file and remove any npm modules that are installed that are not required for your project. More on this part later. |
+| [npm list](https://docs.npmjs.com/cli/v8/commands/npm-ls)                           | Show a list of all packages installed for use by this application.                                                                                                        |
 
 ### Globally installing packages
 
