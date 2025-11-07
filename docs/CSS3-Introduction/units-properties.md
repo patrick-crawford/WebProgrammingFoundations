@@ -298,8 +298,9 @@ for example:
 - `a:hover` - a link when hovered with the mouse
 - `a:active` - a link when it is clicked (i.e., while the mouse button is pressed)
 
-> **NOTE:** pseudo-classes can be used with any element, but we mention them here in relation
-> to styling links, since we often need them to deal with different states for a link.
+:::info
+Pseudo-classes can be used with any element, but we mention them here in relation to styling links, since we often need them to deal with different states for a link.
+:::
 
 Let's alter our links so that they use blue text, with no underline. However, when hovered,
 add back the underline:

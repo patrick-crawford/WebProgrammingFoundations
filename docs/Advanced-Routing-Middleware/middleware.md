@@ -167,7 +167,9 @@ app.post('/json-test', (req, res) => {
 
 This is nearly identical to "express.json", except this is used to parse data from a web form using the default "enctype", (ie: "application/x-www-form-urlencoded").
 
-> **NOTE:** The “extended” option utilizes the "qs" library which enables rich objects and arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded. For more information, please see the [qs library](https://www.npmjs.org/package/qs#readme).
+:::info
+The “extended” option utilizes the "qs" library which enables rich objects and arrays to be encoded into the URL-encoded format, allowing for a JSON-like experience with URL-encoded. For more information, please see the [qs library](https://www.npmjs.org/package/qs#readme).
+:::
 
 ```js
 app.use(express.urlencoded({ extended: true }));
